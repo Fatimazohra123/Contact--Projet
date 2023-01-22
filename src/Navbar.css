@@ -1,0 +1,35 @@
+.navbar .navbar-nav .nav-item a{
+    color: #bcbfc2;
+}
+.icon{
+    color:#bcbfc2;
+    font-size: 25px;
+}
+.icon.flip{
+   transform: rotate(90deg);
+}
+
+.navbar .navbar-nav .nav-item a{
+    background-color:lightcyan;
+
+    transition:  background-color,color 0.4s ease-in;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    background-color:lightsteelblue;
+    color: white;
+}
+.navbar .navbar-nav .nav-item a:hover .icon{
+    color: white;
+}
+ 
+.navbar .navbar-nav .nav-item a.active{
+    background-color:lightsteelblue;
+    color: white;
+}
+.navbar .navbar-nav .nav-item a.active .icon{
+    color: white;
+}
+
+.navbar{
+    border-bottom: 2px solid white;
+}

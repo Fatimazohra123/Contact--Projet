@@ -1,0 +1,21 @@
+.del-btn{
+    border: none;
+    background: transparent; 
+    font-size: 20px;
+    font-weight: 500;
+    display: inline;
+    transition: color 0.3s ease-in-out;  
+}
+.del-btn:hover{
+     color: red; 
+}
+
+.contact{
+     /* background-color: #F6EAD3;  */
+     border-radius: 5px; 
+     margin: 0.6rem;
+     background-color:lightsteelblue;
+}
+span{
+    /* background-color: aquamarine; */
+}

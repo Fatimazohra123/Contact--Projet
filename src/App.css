@@ -1,0 +1,18 @@
+
+.App{
+    background-color:white;
+}
+.App,.app-wrapper{
+    height: 100vh;
+}
+
+
+.card-body{
+    overflow-y: scroll;
+    scrollbar-width: 0;
+    background-color:lightblue;
+}
+
+.card-body::-webkit-scrollbar{
+    display: none;
+}
